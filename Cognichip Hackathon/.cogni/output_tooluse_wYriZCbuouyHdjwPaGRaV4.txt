@@ -1,0 +1,23 @@
+=== Command: Select-String -Path "d:\SJSU\Cognichip Hackathon\oct_fft\oct_fft.sv" -Pattern "module oct_fft|endmodule|dsp_ac|twiddle_rom|pp_buf" | Format-Table LineNumber, Line -AutoSize (2026-04-19T19:29:30.701Z) ===
+Exit Code: 0
+Output:
+
+LineNumber Line                                                         
+---------- ----                                                         
+        27 module oct_fft #(                                            
+       104   logic [DATA_W-1:0] pp_buf [0:1][0:MAX_N-1];                
+       118       pp_buf[pp_wr_sel][pp_wr_addr] <= s_tdata;              
+       122     pp_rd_data <= pp_buf[~pp_wr_sel][pp_rd_addr];            
+       178   logic [35:0] twiddle_rom [0:BANK_DEPTH-1];                 
+       180   initial $readmemh("twiddle_rom.hex", twiddle_rom);         
+       187     tw_rdata <= twiddle_rom[tw_addr];                        
+       326   (* use_dsp = "yes" *) logic signed [PROD_W-1:0] dsp_ac;    
+       334       dsp_ac <= '0; dsp_bd <= '0; dsp_bc <= '0; dsp_ad <= '0;
+       336       dsp_ac   <= PROD_W'(s1_dif_r) * PROD_W'(s1_tw_c);      
+       347   assign pe_out_r = (dsp_ac + dsp_bd) >>> TW_SHIFT;          
+       484 endmodule : oct_fft                                          
+
+
+
+=== End Output ===
+

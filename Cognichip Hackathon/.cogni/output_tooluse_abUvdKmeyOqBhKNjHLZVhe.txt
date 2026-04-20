@@ -1,0 +1,321 @@
+=== Command: Select-String -Path "d:\SJSU\Cognichip Hackathon\oct_fft\oct_fft.sv" -Pattern "module oct_fft|endmodule|S_IDLE|S_LOAD|S_COMPUTE|S_OUTPUT|dsp_ac|twiddle_rom|pp_buf|bank \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat (2026-04-19T19:29:21.876Z) ===
+Exit Code: 1
+Output:
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatStartData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power....GroupStartData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...FormatEntryData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...at.GroupEndData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+cat : The input object cannot be bound to any parameters for the command either because the command does not take 
+pipeline input or the input and its properties do not match any of the parameters that take pipeline input.
+At line:1 char:233
++ ... k \[" | Select-Object LineNumber, Line | Format-Table -AutoSize | cat
++                                                                       ~~~
+    + CategoryInfo          : InvalidArgument: (Microsoft.Power...t.FormatEndData:PSObject) [Get-Content], ParameterBi 
+   ndingException
+    + FullyQualifiedErrorId : InputObjectNotBound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+
+=== End Output ===
+

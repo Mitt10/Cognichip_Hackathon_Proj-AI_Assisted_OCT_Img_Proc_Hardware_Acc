@@ -1,0 +1,80 @@
+SIMULATION RESULTS - async_fifo
+================================
+Target  : async_fifo_sim
+Tool    : Verilator 5.042
+Date    : 2026-04-19
+
+COMPILATION : PASSED (0 warnings, 0 errors)
+SIMULATION  : PASSED (0 warnings, 0 errors)
+
+TEST SUMMARY
+------------
+T1 Basic write then read (8 words 0xA001..0xA008)    PASS fail_count=0
+T2 Fill to full, overflow guard, drain (16 words)    PASS fail_count=0
+T3 Stress 64 words fork/join random en de-assertion  PASS fail_count=0
+T4 Back-to-back single-word round-trip x20           PASS fail_count=0
+
+OVERALL RESULT : TEST PASSED
+
+TEST DETAIL LOG
+---------------
+[T1] Basic write then read
+  137000ps INFO rd_data expected=16'ha001 actual=16'ha001
+  140000ps INFO rd_data expected=16'ha002 actual=16'ha002
+  144000ps INFO rd_data expected=16'ha003 actual=16'ha003
+  147000ps INFO rd_data expected=16'ha004 actual=16'ha004
+  150000ps INFO rd_data expected=16'ha005 actual=16'ha005
+  154000ps INFO rd_data expected=16'ha006 actual=16'ha006
+  157000ps INFO rd_data expected=16'ha007 actual=16'ha007
+  160000ps INFO rd_data expected=16'ha008 actual=16'ha008
+
+[T2] Fill to full
+  278000ps INFO wr_full  expected=1       actual=1
+  284000ps INFO rd_data expected=16'hb000 actual=16'hb000
+  287000ps INFO rd_data expected=16'hb001 actual=16'hb001
+  290000ps INFO rd_data expected=16'hb002 actual=16'hb002
+  294000ps INFO rd_data expected=16'hb003 actual=16'hb003
+  297000ps INFO rd_data expected=16'hb004 actual=16'hb004
+  300000ps INFO rd_data expected=16'hb005 actual=16'hb005
+  304000ps INFO rd_data expected=16'hb006 actual=16'hb006
+  307000ps INFO rd_data expected=16'hb007 actual=16'hb007
+  310000ps INFO rd_data expected=16'hb008 actual=16'hb008
+  314000ps INFO rd_data expected=16'hb009 actual=16'hb009
+  317000ps INFO rd_data expected=16'hb00a actual=16'hb00a
+  320000ps INFO rd_data expected=16'hb00b actual=16'hb00b
+  324000ps INFO rd_data expected=16'hb00c actual=16'hb00c
+  327000ps INFO rd_data expected=16'hb00d actual=16'hb00d
+  330000ps INFO rd_data expected=16'hb00e actual=16'hb00e
+  334000ps INFO rd_data expected=16'hb00f actual=16'hb00f
+  334000ps INFO rd_empty expected=1       actual=1
+
+[T3] Stress 64 words fork/join
+  All 64 words 0x0000..0x003f received in order PASS
+
+[T4] Back-to-back single-word round-trip x20
+  1061000ps INFO rd_data expected=16'hc000 actual=16'hc000
+  1081000ps INFO rd_data expected=16'hc001 actual=16'hc001
+  1101000ps INFO rd_data expected=16'hc002 actual=16'hc002
+  1121000ps INFO rd_data expected=16'hc003 actual=16'hc003
+  1141000ps INFO rd_data expected=16'hc004 actual=16'hc004
+  1161000ps INFO rd_data expected=16'hc005 actual=16'hc005
+  1181000ps INFO rd_data expected=16'hc006 actual=16'hc006
+  1201000ps INFO rd_data expected=16'hc007 actual=16'hc007
+  1221000ps INFO rd_data expected=16'hc008 actual=16'hc008
+  1241000ps INFO rd_data expected=16'hc009 actual=16'hc009
+  1261000ps INFO rd_data expected=16'hc00a actual=16'hc00a
+  1281000ps INFO rd_data expected=16'hc00b actual=16'hc00b
+  1301000ps INFO rd_data expected=16'hc00c actual=16'hc00c
+  1321000ps INFO rd_data expected=16'hc00d actual=16'hc00d
+  1341000ps INFO rd_data expected=16'hc00e actual=16'hc00e
+  1361000ps INFO rd_data expected=16'hc00f actual=16'hc00f
+  1381000ps INFO rd_data expected=16'hc010 actual=16'hc010
+  1401000ps INFO rd_data expected=16'hc011 actual=16'hc011
+  1421000ps INFO rd_data expected=16'hc012 actual=16'hc012
+  1441000ps INFO rd_data expected=16'hc013 actual=16'hc013
+
+RUNTIME
+-------
+  Wall time : 3.667 s
+  Sim end   : 1.441 us
+  Waveform  : dumpfile.fst (24935 bytes)

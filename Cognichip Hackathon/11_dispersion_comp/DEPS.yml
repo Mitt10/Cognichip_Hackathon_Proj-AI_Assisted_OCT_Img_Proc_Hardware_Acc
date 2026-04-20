@@ -1,0 +1,6 @@
+tb_dispersion_comp:
+  deps:
+    - ../oct_pkg/oct_pkg.sv
+    - dispersion_comp.sv
+    - tb_dispersion_comp.sv
+  top: tb_dispersion_comp

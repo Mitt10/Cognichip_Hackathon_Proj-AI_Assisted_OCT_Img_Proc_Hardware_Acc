@@ -1,0 +1,17 @@
+=== Command: Get-Content "DEPS.yml" (2026-04-19T18:53:43.809Z) ===
+Exit Code: 0
+Output:
+tb_oct_pkg:
+  deps:
+    - oct_pkg.sv
+    - tb_oct_pkg.sv
+  top: tb_oct_pkg
+
+tb_async_fifo:
+  deps:
+    - async_fifo.sv
+    - tb_async_fifo.sv
+  top: tb_async_fifo
+
+=== End Output ===
+

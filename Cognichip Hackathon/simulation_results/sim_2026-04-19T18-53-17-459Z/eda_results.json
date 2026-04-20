@@ -1,0 +1,23 @@
+{
+  "stdout_truncated": false,
+  "stdout": "INFO: [EDA] eda: version 0.5.1\nINFO: [EDA] main: eda sim --no-color --tool verilator --seed=1 --verilate-args=-Wno-fatal --waves tb_dispersion_comp; (run from /app/eda.work/c1287fcf-3a44-42ee-9b38-b8722c3237d3.edacmd)\nINFO: [EDA] python: version 3.12.12\nINFO: [EDA] eda from: /app/venv/lib/python3.12/site-packages/opencos\nINFO: [EDA] eda_config: using config: /app/venv/lib/python3.12/site-packages/opencos/eda_config_defaults.yml\nINFO: [EDA] *** OpenCOS EDA ***\nINFO: [EDA] Auto tool setup for command: sim\nINFO: [EDA] --Detected tool--   --Path--                    --Version--  \nINFO: [EDA] verilator           (/usr/local/bin/verilator)  5.042        \nINFO: [EDA] --Detected other--  --Path--                    --Version--  \nINFO: [EDA] docker              /usr/bin/docker             29.1.3       \nERROR: [EDA] Trying to resolve command-line target=./tb_dispersion_comp, but path ./ has no DEPS markup file (DEPS.yml)\nINFO: [EDA] Wrote artifacts JSON: eda.work/artifacts.json\nINFO: [EDA]   --> eda.work/eda.log  (text)\nINFO: [EDA]   --> eda.work/eda_errors.json  (json)\nINFO: [EDA] Exiting with 0 warnings, 1 errors\nINFO: [EDA] Closing logfile: eda.work/eda.log\n",
+  "stdout_size": 1169,
+  "stdout_total_size": 1169,
+  "message": "Simulation failed with return code 10",
+  "warnings": 0,
+  "errors": 0,
+  "stderr": "",
+  "return_code": 10,
+  "start_time": 1776624797.9683034,
+  "stop_time": 1776624798.6099408,
+  "waves_returned": false,
+  "wave_file": null,
+  "wave_file_size": null,
+  "verilator_version": null,
+  "system_info": null,
+  "work_dir_files": null,
+  "frogger_status_reason": "Simulation failed with return code 10",
+  "fst_s3_key": null,
+  "fst_s3_bucket": null,
+  "error": "Simulation failed with return code 10"
+}

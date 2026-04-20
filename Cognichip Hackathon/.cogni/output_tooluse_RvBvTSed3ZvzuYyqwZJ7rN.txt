@@ -1,0 +1,12 @@
+=== Command: Get-Content "dispersion_comp\DEPS.yml" (2026-04-19T18:53:12.310Z) ===
+Exit Code: 0
+Output:
+tb_dispersion_comp:
+  deps:
+    - ../oct_pkg/oct_pkg.sv
+    - dispersion_comp.sv
+    - tb_dispersion_comp.sv
+  top: tb_dispersion_comp
+
+=== End Output ===
+

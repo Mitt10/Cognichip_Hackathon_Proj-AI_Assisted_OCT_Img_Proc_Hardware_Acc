@@ -1,0 +1,16 @@
+my_target:
+  deps:
+    - my_file.sv
+
+bscan_buffer_sim:
+  deps:
+    - 1_oct_pkg/oct_pkg.sv
+    - 14_bscan_buffer/bscan_buffer.sv
+    - 14_bscan_buffer/tb_bscan_buffer.sv
+  top: tb_bscan_buffer
+
+async_fifo_sim:
+  deps:
+    - 2_async_fifo/async_fifo.sv
+    - 2_async_fifo/tb_async_fifo.sv
+  top: tb_async_fifo

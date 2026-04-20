@@ -1,0 +1,12 @@
+=== Command: Get-Content "d:\SJSU\Cognichip Hackathon\oct_fft\oct_fft.sv" | Measure-Object -Line | Select-Object Lines (2026-04-19T19:29:07.341Z) ===
+Exit Code: 0
+Output:
+
+Lines
+-----
+  420
+
+
+
+=== End Output ===
+

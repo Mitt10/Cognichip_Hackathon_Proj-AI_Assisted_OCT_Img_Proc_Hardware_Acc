@@ -1,0 +1,6 @@
+=== Command: Add-Content -Path "DEPS.yml" -Value "`ntb_dispersion_comp:`n  deps:`n    - oct_pkg/oct_pkg.sv`n    - dispersion_comp/dispersion_comp.sv`n    - dispersion_comp/tb_dispersion_comp.sv`n  top: tb_dispersion_comp" (2026-04-19T18:53:54.841Z) ===
+Exit Code: 0
+Output:
+
+=== End Output ===
+

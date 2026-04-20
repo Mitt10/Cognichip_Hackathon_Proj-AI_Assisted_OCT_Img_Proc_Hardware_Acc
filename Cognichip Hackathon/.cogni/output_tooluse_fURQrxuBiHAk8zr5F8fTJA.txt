@@ -1,0 +1,6 @@
+=== Command: Set-Content -Path "dispersion_comp\DEPS.yml" -Value "tb_dispersion_comp:`n  deps:`n    - ../oct_pkg/oct_pkg.sv`n    - dispersion_comp.sv`n    - tb_dispersion_comp.sv`n  top: tb_dispersion_comp" (2026-04-19T18:52:14.388Z) ===
+Exit Code: 0
+Output:
+
+=== End Output ===
+
